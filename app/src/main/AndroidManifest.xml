@@ -7,6 +7,7 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.CONTROL_LOCATION"/>
 
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,9 +20,10 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-                <!--LAUNCHER:처음 시작되는 ACTIVITY시작을 알려주는 것 -->
+                <!--LAUNCHER:처음 시작되는 ACTIVITY시작을 알려주는 것   Lat:위도 지정, Lng:경도, Zoom: 줌-->
             </intent-filter>
         </activity>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDB9zpYMcRb0FJhsMjQ5QdGlYCtGzlqHsw"/>
     </application>
 
 </manifest>
